@@ -1,0 +1,40 @@
+body{
+  background-color: rgb(201, 201, 207);
+}
+.container{
+  background-color: rgb(206, 199, 191);
+  height: 600px;
+  border: 2px solid black;
+ padding: 20px;
+ box-sizing: border-box;
+ display: flex;
+ flex-wrap: wrap;
+ flex-flow: row-reverse;
+  
+}
+/* div+p{
+  background-color: azure;
+} */
+.child1,.child2,.child3,.child4
+{
+  background-color: rgb(156, 140, 170);
+  height: 200px;
+  width: 200px;
+  border: 2px dotted goldenrod;
+  /* display: inline-block; */
+  margin: 20px;
+
+}
+.child1{
+  background-color: orangered;
+}
+.child2{
+  background-color: white;
+}
+.child3{
+  background-color: green;
+}
+/* }
+.myclass{
+  background-color: blue;
+} */
