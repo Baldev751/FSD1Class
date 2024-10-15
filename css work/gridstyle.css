@@ -36,6 +36,15 @@ body{background-color: rgb(209, 106, 123);
   border: 1px solid white;
   
 }
+.row3{
+  grid-column: 1/13;
+  grid-row: 3/4;
+
+}
+.row3 img{
+  width: 100%;
+}
+
 ul li{
   list-style-type: none;
   display: inline;
@@ -43,4 +52,57 @@ ul li{
 }
 li:hover{
   background-color: black;
+}
+
+.row4{
+  grid-column: 1/13;
+  grid-row: 4/5;
+  height: 400px;
+  background-color: rgb(228, 172, 105);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 2px solid gold;
+}
+.row41,.row42,.row43,.row44{
+   width: 260px;
+   height: 300px;
+   border: 1px solid goldenrod;
+}
+.row41{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(2,1fr);
+}
+.row411{
+  background-color: white;
+  border: 1px solid gold;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: normal;
+  padding: 10px;
+}
+.row412{
+  background-color: white;
+  border: 1px solid gold;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: normal;
+  padding: 10px;
+}
+.row413{
+  background-color: white;
+  border: 1px solid gold;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: normal;
+  padding: 10px;
+}
+.row414{
+  background-color: white;
+  border: 1px solid gold;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: normal;
+  padding: 10px;
 }
