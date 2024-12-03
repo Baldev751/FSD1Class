@@ -1,0 +1,36 @@
+.imageCard{
+
+  margin-top:5vh;
+  margin-left: 60vh;
+  border: 2px solid black;
+  width: 30%;
+  text-align: center;
+  padding: 20px;
+  height: 600px;
+  align-items: center;
+
+  border-radius: 20px;
+  color: white;
+}
+
+.imageCard img{
+  border-radius: 50px;
+  box-shadow: 2px 5px 50px white;
+}
+
+.imgdiv{
+  background-color: black;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.btn{
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+} 
+
+.btn button{
+  margin: 5px;
+  height: 30px;
+}   

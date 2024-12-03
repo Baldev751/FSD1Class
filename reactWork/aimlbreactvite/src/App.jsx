@@ -1,6 +1,8 @@
 import React from 'react'
 import Student from './Student'
 import image from './assets/Thalapathy-Vijay.jpg'
+import Image_manipulation from './image_manipulation'
+import UseEffect from './useEffect'
 
 function App() {
   const studentdata={
@@ -21,6 +23,7 @@ function App() {
     
   // }
   return (
+    <>
     <div style={{marginLeft:"300px"}} >
       <Student data={studentdata} />
       {/* <Student
@@ -34,6 +37,9 @@ function App() {
        pic = {<img src = {image} height = {100} width = { 100}/>}
        college="ABES Engineering College" name = "Bhardwaj" branch = " CSE AIML" section="B" roll="89324" /> */}
     </div>
+    <Image_manipulation />
+    <UseEffect/>
+    </>
   )
 }
 
